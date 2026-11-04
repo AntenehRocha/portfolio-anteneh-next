@@ -6,6 +6,13 @@ const projects = [
     url: "https://servidor-tienda-antenehrocha.onrender.com/",
     title: "",
     description: "",
+    image: "/servidor-tienda-antenehrocha.onrender.com_.png",
+  },
+  {
+    url: "https://servidor-juego-parejas-antenehrocha.onrender.com/",
+    title: "",
+    description: "",
+    image: "/servidor-juego-parejas-antenehrocha.onrender.com_.png",
   },
 ];
 
@@ -28,7 +35,7 @@ export default function ProjectsGrid() {
               <Card className="h-full">
                 <div className="relative h-48 overflow-clip">
                   <Image
-                    src="/servidor-tienda-antenehrocha.onrender.com_.png"
+                    src={project.image}
                     alt={project.title || "Proyecto"}
                     className="absolute inset-0 w-full h-full object-cover"
                     fill
