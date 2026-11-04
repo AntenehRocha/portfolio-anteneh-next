@@ -5,7 +5,7 @@ export default function Hero() {
         Anteneh Rocha Otero
       </h1>
       <p className="mt-4 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-        Portfolio sencillo. Un proyecto relevante.
+        Soy un estudiante de DAW
       </p>
       <a
         href="https://servidor-tienda-antenehrocha.onrender.com/"
