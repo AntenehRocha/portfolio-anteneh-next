@@ -26,14 +26,15 @@ export default function ProjectsGrid() {
               className="block"
             >
               <Card className="h-full">
-                <Image
-                  src="/servidor-tienda-antenehrocha.onrender.com_.png"
-                  alt={project.title || "Proyecto"}
-                  className="w-full h-48 object-cover"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  priority
-                />
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src="/servidor-tienda-antenehrocha.onrender.com_.png"
+                    alt={project.title || "Proyecto"}
+                    className="absolute inset-0 w-full h-full object-cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                </div>
                 <CardContent className="pt-6">
                   <h3 className="text-lg font-semibold">{project.title}</h3>
                   <p className="mt-2 text-sm text-muted-foreground">
