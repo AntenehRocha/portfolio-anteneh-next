@@ -11,7 +11,7 @@ const projects = [
 
 export default function ProjectsGrid() {
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8">
+    <section className="py-24 px-4 sm:px-6 lg:px-8 overflow-x-hidden">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold tracking-tight text-center sm:text-left mb-12">
           Proyectos
@@ -26,13 +26,13 @@ export default function ProjectsGrid() {
               className="block"
             >
               <Card className="h-full">
-                <div className="relative h-48 overflow-hidden">
+                <div className="relative h-48 overflow-clip">
                   <Image
                     src="/servidor-tienda-antenehrocha.onrender.com_.png"
                     alt={project.title || "Proyecto"}
                     className="absolute inset-0 w-full h-full object-cover"
                     fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>
                 <CardContent className="pt-6">
