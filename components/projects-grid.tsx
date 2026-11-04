@@ -33,7 +33,7 @@ export default function ProjectsGrid() {
               className="block"
             >
               <Card className="h-full">
-                <div className="relative h-64 overflow-clip">
+                <div className="relative h-64 overflow-clip rounded-xl">
                   <Image
                     src={project.image}
                     alt={project.title || "Proyecto"}
