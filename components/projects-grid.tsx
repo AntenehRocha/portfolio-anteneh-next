@@ -33,11 +33,11 @@ export default function ProjectsGrid() {
               className="block"
             >
               <Card className="h-full">
-                <div className="relative h-48 overflow-clip">
+                <div className="relative h-56 overflow-clip rounded-t-xl">
                   <Image
                     src={project.image}
                     alt={project.title || "Proyecto"}
-                    className="absolute inset-0 w-full h-full object-cover"
+                    className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
