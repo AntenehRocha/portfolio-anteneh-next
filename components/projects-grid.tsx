@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 
 const projects = [
@@ -25,6 +26,14 @@ export default function ProjectsGrid() {
               className="block"
             >
               <Card className="h-full">
+                <Image
+                  src="/servidor-tienda-antenehrocha.onrender.com_.png"
+                  alt={project.title || "Proyecto"}
+                  className="w-full h-48 object-cover"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  priority
+                />
                 <CardContent className="pt-6">
                   <h3 className="text-lg font-semibold">{project.title}</h3>
                   <p className="mt-2 text-sm text-muted-foreground">
