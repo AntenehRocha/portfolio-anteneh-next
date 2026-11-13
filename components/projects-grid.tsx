@@ -4,19 +4,19 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 const projects = [
   {
     url: "https://servidor-tienda-antenehrocha.onrender.com/",
-    title: "",
+    title: "Tienda PC Store",
     description: "",
     image: "/servidor-tienda-antenehrocha.onrender.com_.png",
   },
   {
     url: "https://servidor-juego-parejas-antenehrocha.onrender.com/",
-    title: "",
+    title: "Juego Memory sobre IA",
     description: "",
     image: "/servidor-juego-parejas-antenehrocha.onrender.com_.png",
   },
   {
     url: "https://tracker-gym-lemon.vercel.app",
-    title: "",
+    title: "Tracker para el gym",
     description: "",
     image: "/tracker-gym-lemon.vercel.app_.png",
   },
