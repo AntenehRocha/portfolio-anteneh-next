@@ -14,6 +14,12 @@ const projects = [
     description: "",
     image: "/servidor-juego-parejas-antenehrocha.onrender.com_.png",
   },
+  {
+    url: "https://tracker-gym-lemon.vercel.app",
+    title: "",
+    description: "",
+    image: "/tracker-gym-lemon.vercel.app_.png",
+  },
 ];
 
 export default function ProjectsGrid() {
